@@ -1,0 +1,59 @@
+{
+    "features": [
+        "Customer_care_calls",
+        "Customer_rating",
+        "Cost_of_the_Product",
+        "Prior_purchases",
+        "Discount_offered",
+        "Weight_in_gms"
+    ],
+    "ranges": {
+        "Customer_care_calls": {
+            "min": 2.0,
+            "max": 7.0,
+            "median": 4.0
+        },
+        "Customer_rating": {
+            "min": 1.0,
+            "max": 5.0,
+            "median": 3.0
+        },
+        "Cost_of_the_Product": {
+            "min": 96.0,
+            "max": 310.0,
+            "median": 214.0
+        },
+        "Prior_purchases": {
+            "min": 2.0,
+            "max": 10.0,
+            "median": 3.0
+        },
+        "Discount_offered": {
+            "min": 1.0,
+            "max": 65.0,
+            "median": 7.0
+        },
+        "Weight_in_gms": {
+            "min": 1001.0,
+            "max": 7846.0,
+            "median": 4149.0
+        }
+    },
+    "cluster_info": {
+        "0": {
+            "nombre": "Segmento logístico 0",
+            "descripcion": "Este grupo se caracteriza por Peso del envío relativamente alto y Descuento ofrecido relativamente bajo respecto al promedio.",
+            "recomendacion": "Revisar capacidad de transporte, espacio disponible y condiciones de manipulación del envío."
+        },
+        "1": {
+            "nombre": "Segmento logístico 1",
+            "descripcion": "Este grupo se caracteriza por Compras previas relativamente alto y Llamadas a servicio al cliente relativamente alto respecto al promedio.",
+            "recomendacion": "Considerar estrategias de fidelización y atención diferenciada para estos clientes."
+        },
+        "2": {
+            "nombre": "Segmento logístico 2",
+            "descripcion": "Este grupo se caracteriza por Descuento ofrecido relativamente alto y Peso del envío relativamente bajo respecto al promedio.",
+            "recomendacion": "Monitorear el efecto de las promociones sobre la demanda y la capacidad logística."
+        }
+    }
+}
