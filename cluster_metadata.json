@@ -7,7 +7,7 @@
         "Discount_offered",
         "Weight_in_gms"
     ],
-    "ranges": {
+    "feature_ranges": {
         "Customer_care_calls": {
             "min": 2.0,
             "max": 7.0,
@@ -41,19 +41,40 @@
     },
     "cluster_info": {
         "0": {
-            "nombre": "Segmento logístico 0",
-            "descripcion": "Este grupo se caracteriza por Peso del envío relativamente alto y Descuento ofrecido relativamente bajo respecto al promedio.",
-            "recomendacion": "Revisar capacidad de transporte, espacio disponible y condiciones de manipulación del envío."
+            "description": "Este segmento se caracteriza principalmente por mayor peso del envío y menor descuento ofrecido frente al promedio general.",
+            "recommendation": "Priorizar la planeación de capacidad y transporte, ya que estos envíos presentan pesos superiores al promedio.",
+            "profile": {
+                "Customer_care_calls": 3.7225859247135844,
+                "Customer_rating": 2.983633387888707,
+                "Cost_of_the_Product": 201.26988543371522,
+                "Prior_purchases": 3.065302782324059,
+                "Discount_offered": 5.896726677577742,
+                "Weight_in_gms": 4776.316039279869
+            }
         },
         "1": {
-            "nombre": "Segmento logístico 1",
-            "descripcion": "Este grupo se caracteriza por Compras previas relativamente alto y Llamadas a servicio al cliente relativamente alto respecto al promedio.",
-            "recomendacion": "Considerar estrategias de fidelización y atención diferenciada para estos clientes."
+            "description": "Este segmento se caracteriza principalmente por mayor compras anteriores y mayor llamadas a servicio al cliente frente al promedio general.",
+            "recommendation": "Aprovechar la recurrencia de estos clientes mediante estrategias de fidelización y atención diferenciada.",
+            "profile": {
+                "Customer_care_calls": 5.163753799392097,
+                "Customer_rating": 3.0357142857142856,
+                "Cost_of_the_Product": 249.32142857142858,
+                "Prior_purchases": 5.150075987841945,
+                "Discount_offered": 7.3537234042553195,
+                "Weight_in_gms": 2197.710866261398
+            }
         },
         "2": {
-            "nombre": "Segmento logístico 2",
-            "descripcion": "Este grupo se caracteriza por Descuento ofrecido relativamente alto y Peso del envío relativamente bajo respecto al promedio.",
-            "recomendacion": "Monitorear el efecto de las promociones sobre la demanda y la capacidad logística."
+            "description": "Este segmento se caracteriza principalmente por mayor descuento ofrecido y menor peso del envío frente al promedio general.",
+            "recommendation": "Revisar el efecto de los descuentos sobre la rentabilidad y realizar seguimiento especial a pedidos con promociones altas.",
+            "profile": {
+                "Customer_care_calls": 3.659282233052725,
+                "Customer_rating": 2.956579530350022,
+                "Cost_of_the_Product": 188.73814798404962,
+                "Prior_purchases": 3.081967213114754,
+                "Discount_offered": 40.63269827204253,
+                "Weight_in_gms": 2216.6078865750997
+            }
         }
     }
 }
